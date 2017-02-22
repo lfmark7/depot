@@ -9,25 +9,25 @@
 
 <p>
   <strong>Title:</strong>
-  <%= @product.title %>
+  <%= @products.title %>
 </p>
 
 
 <p>
   <strong>Description:</strong>
-  <%= @product.description %>
+  <%= @products.description %>
 </p>
 
 
 <p>
   <strong>Image url:</strong>
-  <%= @product.image_url %>
+  <%= @products.image_url %>
 </p>
 
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <%= @products.price %>
 </p>
 
 
@@ -35,7 +35,7 @@
 
 <div class="panel-footer">
 
-<%= link_to 'Edit', edit_product_path(@product) ,class:"btn btn-xs btn-danger" %> |
+<%= link_to 'Edit', edit_product_path(@products) ,class:"btn btn-xs btn-danger" %> |
 <%= link_to 'Back', products_path , class:"btn btn-xs btn-danger" %>
 
 </div></div>
